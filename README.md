@@ -1,80 +1,156 @@
-# Graphoris
 
-**Mac-native scientific graphing & diagramming for researchers, scientists, and data analysts.**
 
-Graphoris combines publication-quality charting with general-purpose diagramming in a single fast, beautiful macOS app. Think *OmniGraffle meets GraphPad Prism* — modern, AI-powered, with fluid animations.
+<h1 align="center">Graphoris</h1>
 
-[![Download Latest](https://img.shields.io/github/v/release/ymkindhearted/graphoris-releases?label=Download&style=for-the-badge)](https://github.com/ymkindhearted/graphoris-releases/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-15.0+-blue?style=for-the-badge&logo=apple)](https://github.com/ymkindhearted/graphoris-releases/releases/latest)
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange?style=for-the-badge&logo=swift)](https://swift.org)
+<p align="center">
+  <strong>Mac-native scientific plotting, supercharged by AI.</strong><br>
+  Free OriginPro alternative for macOS — built with Swift and Metal GPU acceleration.
+</p>
+
+<p align="center">
+  <a href="https://graphoris.space">Website</a> ·
+  <a href="https://github.com/ymkindhearted/graphoris-releases/releases/latest">Download</a> ·
+  <a href="https://discord.gg/m22VDa4ZSs">Discord</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-macOS-blue" alt="macOS">
+  <img src="https://img.shields.io/badge/price-Free-brightgreen" alt="Free">
+  <img src="https://img.shields.io/badge/MCP-supported-orange" alt="MCP">
+  <img src="https://img.shields.io/badge/GPU-Metal-purple" alt="Metal">
+  <img src="https://img.shields.io/github/v/release/ymkindhearted/graphoris-releases" alt="Latest Release">
+</p>
 
 ---
+
+## Why Graphoris?
+
+AI tools like Claude can generate great plots — but editing them means re-prompting for every tiny change. And OriginPro still doesn't run on Mac.
+
+Graphoris solves both: AI creates charts inside the app, and you edit everything with your mouse. No more Parallels, no more re-prompting.
 
 ## Features
 
-### Scientific Charting
-- **10+ chart types** — scatter, line, bar (grouped/stacked), area, histogram, box plot, violin, heatmap, error bar
-- **3D charts** — scatter, surface, and bar charts rendered via Metal at 120fps
-- **Publication presets** — Nature, Science, Minimal, Classic styles with proper figure dimensions
-- **Scales** — linear, logarithmic, and category with full customization
+**AI-Powered Plotting**
+- MCP server — connect Claude Desktop, Claude Code, Cursor, or any MCP-compatible AI
+- Built-in AI assistant (GRAPO) for peak detection, curve fitting, and data analysis
+- Natural language commands via ⌘K palette
 
-### Compute Engine
-- Curve fitting · FFT · Peak detection · Baseline correction (airPLS)
-- Smoothing (Savitzky-Golay, Gaussian, moving average)
-- Statistical tests (t-test, ANOVA, Wilcoxon, Mann-Whitney)
-- Numerical calculus (differentiation, Simpson's integration)
-- Expression parser for computed columns
+**Metal GPU Acceleration**
+- Smooth 60fps rendering even with 100K+ data points
+- 3D scatter, surface, and bar charts — all GPU-accelerated
+- Native Apple Silicon optimization
 
-### Diagramming
-- Infinite canvas with shapes, text, connectors, and groups
-- Auto-layout — force-directed and hierarchical algorithms
-- Smart guides, snap-to-grid, alignment tools
-- Layers, z-ordering, and object library
+**Every Chart You Need**
+- Scatter, line, bar, area, histogram, box, violin, heatmap
+- 3D scatter, 3D surface, 3D bar
+- Error bars, curve fitting overlays, multi-series
 
-### AI-Powered
-- Built-in AI chat with **62+ tools** for chart creation, styling, and data analysis
-- Natural language to publication-ready figures
-- Agentic workflow with tool dependency graphs
+**Publication-Ready**
+- Export to PDF, SVG, EPS, PNG at vector quality
+- Journal presets (Nature, Science, and more)
+- Colorblind-safe palettes (Wong/Okabe-Ito)
 
-### Export
-- **PDF** — vector, publication quality
-- **SVG** — clean, semantic markup
-- **PNG** — 1x, 2x, 3x Retina
-- **EPS** — PostScript
-- Clipboard support (vector + bitmap)
+**Infinite Canvas**
+- Arrange multiple plots freely like Figma
+- Drag-and-drop CSV import
+- Multi-panel figure layouts for papers
 
-### MCP Server
-- JSON-RPC 2.0 server (MCP 2024-11-05 spec)
-- 16+ tools for programmatic figure creation
-- Compatible with Claude Desktop and other MCP clients
+## MCP Setup
+
+Connect Graphoris to Claude Code with one command:
+
+```bash
+claude mcp add graphoris -- /path/to/graphoris-mcp.sh
+```
+
+Or add to Claude Desktop's `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "graphoris": {
+      "command": "/path/to/graphoris-mcp.sh"
+    }
+  }
+}
+```
+
+Then just ask Claude:
+
+```
+"Plot this CSV as a scatter chart"
+"Add error bars to the Y axis"
+"Fit a Gaussian to the main peak"
+```
+
+Claude creates the chart inside Graphoris → you edit it with your mouse.
+
+## Screenshots
+
+<!-- Replace with actual screenshots -->
+<!-- ![Canvas View](screenshots/canvas.png) -->
+<!-- ![AI Analysis](screenshots/ai-analysis.png) -->
+<!-- ![3D Plot](screenshots/3d-plot.png) -->
+
+Visit [graphoris.space](https://graphoris.space) for demo videos and more screenshots.
+
+## Download
+
+Download the latest release from the [Releases page](https://github.com/ymkindhearted/graphoris-releases/releases/latest).
+
+**Requirements:**
+- macOS 13 (Ventura) or later
+- Apple Silicon or Intel Mac
+
+## Pricing
+
+| | Free | Entry ($4.99/mo) |
+|---|---|---|
+| All chart types | ✅ | ✅ |
+| Metal GPU rendering | ✅ | ✅ |
+| MCP server | ✅ | ✅ |
+| Publication export | ✅ | ✅ |
+| Built-in AI (GRAPO) | Limited | Claude Sonnet |
+| | | 7-day free trial |
+
+The app is fully functional for free. The Entry subscription unlocks the built-in AI assistant powered by Claude Sonnet.
+
+## Feedback & Community
+
+This is the first release — bugs are expected! Your feedback helps make Graphoris better.
+
+- 🐛 [Report a bug](https://github.com/ymkindhearted/graphoris-releases/issues/new?template=bug_report.md)
+- 💡 [Request a feature](https://github.com/ymkindhearted/graphoris-releases/issues/new?template=feature_request.md)
+- 💬 [Join Discord](https://discord.gg/m22VDa4ZSs) for discussion and support
+- 🗳️ [Discussions](https://github.com/ymkindhearted/graphoris-releases/discussions) for Q&A and ideas
+
+## Comparison
+
+| | Graphoris | OriginPro | GraphPad Prism | R/ggplot2 | LabPlot |
+|---|---|---|---|---|---|
+| macOS native | ✅ | ❌ | ✅ | N/A | ❌ (Qt) |
+| GPU acceleration | Metal | ❌ | ❌ | ❌ | ❌ |
+| AI integration | MCP + built-in | ❌ | ❌ | ❌ | ❌ |
+| Editable AI plots | ✅ | N/A | N/A | ❌ | N/A |
+| Free tier | ✅ | ❌ ($1,070/yr) | ❌ ($350/yr) | ✅ | ✅ |
+| GUI editing | ✅ | ✅ | ✅ | ❌ (code) | ✅ |
+| Infinite canvas | ✅ | ❌ | ❌ | N/A | ❌ |
+
+## Tech Stack
+
+- **Language:** Swift / SwiftUI / AppKit
+- **Rendering:** Metal GPU (5K+ points), Core Graphics (< 5K points)
+- **AI:** Claude Sonnet (built-in), Gemini Flash (free tier), MCP protocol
+- **Backend:** Supabase (auth, AI proxy, credit tracking)
+- **Updates:** Sparkle framework
+
+## Star History
+
+If you find Graphoris useful, a ⭐ helps others discover it!
 
 ---
 
-## System Requirements
-
-| | |
-|---|---|
-| **OS** | macOS 15.0 (Sequoia) or later |
-| **Architecture** | Apple Silicon optimized (Universal) |
-
-## Install
-
-Download the latest **DMG** or **ZIP** from [Releases](https://github.com/ymkindhearted/graphoris-releases/releases/latest).
-
-Auto-updates are built in via [Sparkle](https://sparkle-project.org/) — you will be notified when new versions are available.
-
----
-
-## Built With
-
-Swift · SwiftUI · Core Graphics · Metal · SceneKit · Accelerate
-
----
-
-## Links
-
-- [Website](https://graphoris.com)
-
----
-
-*Made for scientists who care about their figures.*
+<p align="center">
+  <a href="https://graphoris.space">graphoris.space</a> · Made with ❤️ and Claude Code
+</p>
