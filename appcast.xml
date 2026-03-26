@@ -1,3 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Graphoris</title>
+    <link>https://graphoris.com</link>
+    <description>Graphoris Updates</description>
+    <language>en</language>
 
     <item>
       <title>Version 1.0.4</title>
@@ -24,3 +31,77 @@
         length="18272085"
       />
     </item>
+
+    <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Mon, 24 Mar 2026 19:36:00 -0400</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.3</h2>
+        <ul>
+          <li>Polar free trial update</li>
+          <li>Fix: walkthrough overlay highlight rect alignment</li>
+          <li>Fix: clear selection before deleting project items to prevent frozen panels</li>
+          <li>Fix: sidebar reactivity (layers, project navigator, bindings)</li>
+          <li>Style: remove build number from settings window</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.3/Graphoris-1.0.3.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="Om6DUqoRtRkURdKrp31gDdwOP/qQbU5CY4RRSsv41Rkzvy8spWwXZbHM+ukrmH4KXiXdWx27F5Gs0MczL4VRCw=="
+        length="18119367"
+      />
+    </item>
+
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Tue, 24 Mar 2026 13:53:29 -0400</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.1 — Hot Fix</h2>
+        <ul>
+          <li>Fix: sidebar/inspector toggle button causing UI hang</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.1/Graphoris-1.0.1.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="SxncjN3uEg/7xVAMtcDyA19U6/GGXxZ49A7i0w9eVFGgW8NTYzBaTfvg7WdbouaIhX0hB4qJV+Vmn/D4I4vzAQ=="
+        length="18089923"
+      />
+    </item>
+
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Mon, 24 Mar 2026 03:40:00 +0900</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.0</h2>
+        <ul>
+          <li>Scientific charting: scatter, line, bar, area, histogram, box plot, heatmap, violin</li>
+          <li>Canvas with shapes, connectors, groups, layers</li>
+          <li>AI chat with 62+ tools, smart Haiku/Sonnet routing</li>
+          <li>3D charts (scatter, surface, bar) with Metal rendering</li>
+          <li>Compute engine: fitting, FFT, peak detection, statistics</li>
+          <li>Custom scripted plots (Python + DSL)</li>
+          <li>PDF/SVG/PNG/EPS export</li>
+          <li>MCP server integration</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.0/Graphoris-1.0.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="ZC8OzIo8Wqs9rfAz8mrNsRK1ojay55RtaRdbakx+ie8Wo78kN/KWggIwghKm7GSuXVh11XlcKTTPpMTjbHO1Cw=="
+        length="18091242"
+      />
+    </item>
+
+  </channel>
+</rss>
