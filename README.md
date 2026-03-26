@@ -29,6 +29,8 @@ AI tools like Claude can generate great plots — but editing them means re-prom
 
 Graphoris solves both: AI creates charts inside the app, and you edit everything with your mouse. No more Parallels, no more re-prompting.
 
+<video src="https://files.catbox.moe/woehxr.mp4" controls autoplay muted loop width="100%"></video>
+
 ## Features
 
 **AI-Powered Plotting**
