@@ -41,6 +41,7 @@ Graphoris solves both: AI creates charts inside the app, and you edit everything
 - Smooth 60fps rendering even with 100K+ data points
 - 3D scatter, surface, and bar charts — all GPU-accelerated
 - Native Apple Silicon optimization
+
 https://github.com/user-attachments/assets/ce4a8ff4-1e9d-4929-bc1e-3925743280c8
 
 **Every Chart You Need**
