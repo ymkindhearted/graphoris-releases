@@ -7,6 +7,34 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.6</title>
+      <pubDate>Wed, 02 Apr 2026 00:00:00 +0900</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.6 — 3D Inspector</h2>
+        <ul>
+          <li>Fill toggle for 3D surfaces — enable/disable independently from wireframe</li>
+          <li>Wireframe color — manual color or Auto (per-face palette color, darkened)</li>
+          <li>Open markers — hollow marker option for 3D scatter plots</li>
+          <li>Unified color scheme — heatmap and 3D share the same color range controls</li>
+          <li>Color range row clears min/max independently; wand resets both</li>
+          <li>Perf: opacity and lighting skip geometry rebuild — uniform-only update at full fps</li>
+          <li>Fix: Y column picker shows all columns; Z stays numeric-only</li>
+          <li>Fix: decimal +/- buttons clickable on full area</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.6/Graphoris-1.0.6.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="8nvZVQ1IQoyNGtvwMZnXKaWWs9bO2iyB3Z6pPTv7phbJzPxG3WA1mfYeE5eM2raugfOwvqMYJCyK8tiH2u3vCw=="
+        length="18754922"
+      />
+    </item>
+
+
+    <item>
       <title>Version 1.0.5</title>
       <pubDate>Wed, 26 Mar 2026 23:30:00 -0400</pubDate>
       <sparkle:version>5</sparkle:version>
