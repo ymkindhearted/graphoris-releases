@@ -7,6 +7,30 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.7</title>
+      <pubDate>Thu, 03 Apr 2026 00:00:00 +0900</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.7 — Heatmap Layout</h2>
+        <ul>
+          <li>Color bar axis controls — position, ticks, and label decimals</li>
+          <li>Heatmap label decimals — configure decimal places for cell value labels</li>
+          <li>Unified layout engine — heatmap, color bar, and axis titles computed together; no overlaps</li>
+          <li>Fix: right Y-axis title positioned correctly after tick labels</li>
+          <li>Fix: color bar X positioning and cell label threshold</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.7/Graphoris-1.0.7.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="Dq+DSalYcTRqgVV86V/Hcf9pWeulhOjZeQAZToCn5QCS4FD9ivZvL0mojYC8s9Qs+FCLoPRPiYO3Bw/8Z7n9Bw=="
+        length="18817186"
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.6</title>
       <pubDate>Wed, 02 Apr 2026 00:00:00 +0900</pubDate>
       <sparkle:version>6</sparkle:version>
