@@ -6,6 +6,34 @@
     <description>Graphoris Updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.9</title>
+      <pubDate>Wed, 06 May 2026 13:46:18 -0400</pubDate>
+      <sparkle:version>1.0.9</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.9</h2>
+        <ul>
+          <li>PNG export — default DPI raised 150 → 400 (publication quality)</li>
+          <li>Export aliasing fix — Metal fast-path skipped during PNG/PDF/EPS/clipboard export</li>
+          <li>Independent line-opacity slider in the Line color row</li>
+          <li>Invert toggle on the 2D color palette (parity with heatmap and 3D)</li>
+          <li>Font-size sliders widened to 4–96 across the chart inspector</li>
+          <li>Axis Range auto-formats with %.3g on log scales and tiny/huge bounds</li>
+          <li>PLOTS list drag-and-drop reorder with insertion-line indicator</li>
+          <li>Multi-dataset drag order from the sidebar matches visible order</li>
+          <li>Color palettes expanded 18 → 47 (matplotlib + seaborn)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.9/Graphoris-1.0.9.zip"
+        length="19205162"
+        type="application/octet-stream"
+        sparkle:edSignature="paiuwTyC/wq3OBNiP9i9OfaE8pV/JV9gfFukuGVSqZEva0ii7SQeXpqv4vWlzKUHU135Ydj6vYtU/rBQIW5BCA=="
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.8</title>
       <pubDate>Thu, 30 Apr 2026 17:33:51 -0400</pubDate>
       <sparkle:version>1.0.8</sparkle:version>
