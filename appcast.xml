@@ -6,6 +6,33 @@
     <description>Graphoris Updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.10</title>
+      <pubDate>Wed, 03 Jun 2026 10:57:09 -0400</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.10</h2>
+        <ul>
+          <li>Error Bar is now a first-class plot type in the "+ Add Plot" popover (Err+ / Err− column pickers)</li>
+          <li>Error-bar overlays on any plot type — Whiskers or Envelope style, adjustable cap width / fill opacity</li>
+          <li>Horizontal bar orientation, including multi-plot stacked horizontal bars</li>
+          <li>Log axes honor your real lower bound (e.g. 1e-14) instead of clamping to 1e-10 — 2D and 3D</li>
+          <li>Scientific-notation (10^N) tick labels by default on log axes</li>
+          <li>Heatmap rows now align with their category labels (mirror fix, square + hex, CPU + GPU)</li>
+          <li>Band-chart inspector lists your real data columns instead of synthetic _mean_ / _band_ columns</li>
+          <li>Data table: interactive column headers (click select, double-click rename, Shift/Cmd range), working column copy/paste</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.10/Graphoris-1.0.10.zip"
+        length="19221620"
+        type="application/octet-stream"
+        sparkle:edSignature="gKNkfA28TTtjj+rj1VelI354uYeIZUE10+no0xrDSHup95JK/V4TH/Aub22SijOGR6rd7BWdnTg2RcfV4r/vAg=="
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.9</title>
       <pubDate>Wed, 06 May 2026 13:46:18 -0400</pubDate>
       <sparkle:version>9</sparkle:version>
