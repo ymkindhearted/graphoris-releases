@@ -6,6 +6,36 @@
     <description>Graphoris Updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.11</title>
+      <pubDate>Sun, 06 Sep 2026 03:17:31 -0500</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Graphoris 1.0.11</h2>
+        <ul>
+          <li><strong>Graphoris is now free.</strong> No subscription tiers or upgrade prompts; beta updates are an opt-in toggle; the project is moving to open source (Apache-2.0)</li>
+          <li>Five-row column header: A(X) / B(Y) / C(yEr±) designations, Name, Units, Comments, and F(x)=; &quot;Set As&quot; menu to designate X, Y, Z, Y Error, X Error, or Label columns; a Column Properties dialog (double-click a header) replaces the rename box</li>
+          <li>Set Column Values: formulas such as Col(A) * 2 or sqrt(&#x27;Time (s)&#x27;) with live preview and auto-recalculate after every edit; formulas follow renames, inserts, and deletes</li>
+          <li>Multi-cell edit (select a range, type, ⌥-Return), ⌘X cut, Home / End / Page Up / Page Down and ⌘-arrow navigation, Insert Column Left / Right, and a Table menu</li>
+          <li>Renaming a column keeps plots pointing at it; editing a cell now refreshes heatmaps immediately</li>
+          <li>Nonlinear fitting engine (weighted Levenberg–Marquardt) with a model library — exponential decay / growth, Boltzmann, Hill, power law, Arrhenius, Gaussian / Lorentzian / pseudo-Voigt — plus custom expressions, 95 % confidence bands, re-runnable fit recipes, a residual sparkline, and a placeable parameter table</li>
+          <li>Multi-peak deconvolution with polynomial baseline: per-peak center, FWHM, area, % area, and component curves under the data</li>
+          <li>New axis scales: ln, log₂, reciprocal (Arrhenius), and probability</li>
+          <li>New AI / MCP tools: nonlinear_fit and multi_peak_fit</li>
+          <li>Double-click rename works reliably everywhere; Esc cancels edits consistently</li>
+          <li>Error bars follow the line color; envelope bands gained separate line and fill controls</li>
+          <li>The local MCP server now requires a per-launch token; the installed graphoris-mcp.sh shim handles it automatically</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/ymkindhearted/graphoris-releases/releases/download/v1.0.11/Graphoris-1.0.11.zip"
+        length="19557482"
+        type="application/octet-stream"
+        sparkle:edSignature="8EZJYyL3gVwDfoWKFcbBlPVZ+Ww3i1XkfVQu5JkzBtoLmH7etEqD1vTQa0wF4b0CPi8ZMdMtOvlXvjPdfHh6Bg=="
+      />
+    </item>
+    <item>
       <title>Version 1.0.10</title>
       <pubDate>Wed, 03 Jun 2026 10:57:09 -0400</pubDate>
       <sparkle:version>10</sparkle:version>
